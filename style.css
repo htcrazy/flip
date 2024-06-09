@@ -15,21 +15,21 @@ body {
 
 button {
     margin: 20px;
-    font-size: 40px;
-    padding: 5px 20px;
+    font-size: 30px;
+    padding: 5px 15px;
 }
 
 input {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     width: 200px;
 }
 
 .header {
     font-weight: 800;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .smolHeader {
-    font-size: 60px;
+    font-size: 50px;
 }
