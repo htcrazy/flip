@@ -11,17 +11,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 10;
 }
 
 button {
     margin: 10px;
+    font-size: 30px;
 }
 
 input {
     text-align: center;
+    font-size: 40px;
+    width: 200px;
 }
 
 .header {
     font-weight: 800;
+    font-size: 40px;
+}
+
+#wins, #losses {
+    font-size: 30px;
 }
