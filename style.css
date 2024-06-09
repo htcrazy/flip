@@ -14,7 +14,7 @@ body {
 }
 
 button {
-    margin: 10px;
+    margin: 20px;
     font-size: 30px;
 }
 
@@ -29,6 +29,6 @@ input {
     font-size: 40px;
 }
 
-#wins, #losses {
+.smolHeader {
     font-size: 30px;
 }
