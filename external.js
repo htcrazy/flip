@@ -14,7 +14,7 @@ flipIt.addEventListener("click", () => {
         } else {
             loss++;
         }
-    }
+    };
 
 
     winNum.textContent = win;
@@ -24,6 +24,6 @@ flipIt.addEventListener("click", () => {
         cue.textContent = "×"
     } else {
         cue.textContent = "+";
-    }
+    };
 
 });
