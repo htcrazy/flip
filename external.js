@@ -2,6 +2,7 @@ const flipNum = document.getElementById("times");
 const flipIt = document.getElementById("flippeth");
 const winNum = document.getElementById("wins");
 const lossNum = document.getElementById("losses");
+const cue = document.getElementById("visualCue");
 
 flipIt.addEventListener("click", () => {
     let win = 0;
@@ -15,7 +16,14 @@ flipIt.addEventListener("click", () => {
         }
     }
 
+
     winNum.textContent = win;
     lossNum.textContent = loss;
+
+    if (cue.textContent == "+") {
+        cue.textContent = "×"
+    } else {
+        cue.textContent = "+";
+    }
 
 });
